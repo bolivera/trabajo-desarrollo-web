@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: #212529;
+  text-align: left;
+  background-color: #efefef;
+  overflow: hidden;
+  font-family: "Nunito", sans-serif;
+}
+
+.titulo {
+  font-size: 40px;
+  color: #fff;
+  padding-top: 18px;
+}
+
+.integrantes {
+  font-size: 30px;
+  color: #fff;
+  padding-bottom: 12px;
+  text-decoration: underline;
+  padding-top: 25px;
+}
+.rojo {
+  background-color: #b81f33;
+}
+
+.contenedor {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fila {
+  width: 100%;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.columna {
+  
+  width: 50%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+}
+
+.contendor-logo {
+  text-align: center;
+  height: 1900px;
+}
+
+.logo {
+  margin-top: 15px;
+  width: 300px;
+  text-align: center;
+}
+
+.datos-grupo .list-integrantes {
+  padding-top: 30px;
+  color: #fff;
+  font-size: 18px;
+  width: 40%;
+  font-style: italic;
+  margin: auto;
+}
+
+.video {
+  padding-top: 30px;
+}
+
+.video-dos{
+  color: #fff;
+}
+/* FORMULARIO */
+
+.content-form {
+  background: #282a2b;
+  width: 400px;
+  height: 100%;
+  margin: auto;
+  border-radius: 12px;
+  padding: 25px;
+}
+
+.grupo label {
+  margin-top: 5px;
+  display: inline-block;
+  color: #fff;
+}
+
+.mt-2 {
+  margin-top: 80px !important;
+}
+
+.content-form .titulo {
+  text-align: center;
+}
+
+form label {
+  font-size: 18px;
+}
+
+
+form input {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  display: block;
+  font-size: 18px;
+  color: #353835;
+  font-weight: 300;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.grupo button {
+  background-color: #b81f33 !important;
+  border: 0;
+  padding: 10px 15px;
+  color: #fff !important;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 12px auto;
+}
+
+/* FOOTER */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer ul li {
+  display: inline;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
